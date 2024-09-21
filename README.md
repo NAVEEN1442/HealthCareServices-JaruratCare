@@ -21,7 +21,7 @@ This is a simple React application for managing healthcare services. Users can a
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/healthcare-services-app.git
+git clone "https://github.com/your-username/healthcare-services-app.git"
 
 -->Navigate into the project directory:
 
