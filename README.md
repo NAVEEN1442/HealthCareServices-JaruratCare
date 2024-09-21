@@ -21,7 +21,7 @@ This is a simple React application for managing healthcare services. Users can a
 
 ### 1. Clone the Repository
 
-git clone "https://github.com/your-username/healthcare-services-app.git"
+git clone https://github.com/your-username/healthcare-services-app.git
 
 -->Navigate into the project directory:
 
@@ -34,6 +34,36 @@ npm install
 -->Start the application:
 
 npm start
+
+###to initiate the TailwindCSS : 
+
+-->npm install -D tailwindcss
+-->npx tailwindcss init
+
+------------------------------------------------
+
+-->IN THE tailwind.config.js edit the following 
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+------------------------------------------------
+
+-->Add these in the index.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 
 
